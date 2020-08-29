@@ -1,0 +1,66 @@
+#include<stdio.h>
+#include <string.h>
+main()
+{
+    char e[10];
+    printf("\n\n\t  BANGLADESH\n");
+    printf("\n   1.The Bangali Language Movement");
+    printf("\n   2.Politics: 1954-1970");
+    printf("\n   3.Independence movement");
+    printf("\n   4.Formal Declaration of Independence");
+    printf("\n   5.Pakistani capitulation and aftermath");
+    printf("\n\n    What do you want to know about?? ");
+    printf("\n  6.Return to main menu\n");
+    printf("    : ");
+    fflush(stdin);
+    gets(e);
+    //command1(e);
+    if(strcmp(e,"the")==0||strncmp(e,"bangali",3)==0||strcmp(e,"b")==0||strcmp(e,"l")==0||strncmp(e,"language",3)==0||strcmp(e,"1")==0)
+    {
+        system("cls");
+        printf("\n   1.The Bangali Language Movement");
+        printf("\n\n The Bengali Language Movement, also known as the Language Movement Bhasha Andolon,\n  was a political effort in Bangladesh (then known as East Pakistan), advocating the recognition\n  of the Bengali language as an official language of Pakistan. Such recognition would allow Bengali\n  to be used in government affairs. Movement was led by Mufti Nadimul Quamar Ahmed. When the state\n  of Pakistan was formed in 1947, its two regions, East Pakistan (also called East Bengal) and West\n  Pakistan, were split along cultural, geographical, and linguistic lines. On 23 February 1948, the\n  Government of Pakistan ordained Urdu as the sole national language, sparking extensive protests among\n  the Bengali-speaking majority of East Pakistan. Facing rising sectarian tensions and mass discontent\n  with the new law, the government outlawed public meetings and rallies. The students of the University\n  of Dhaka and other political activists defied the law and organised a protest on 21 February 1952.\n  The movement reached its climax when police killed student demonstrators on that day. The deaths provoked\n  widespread civil unrest led by the Awami Muslim League, later renamed the Awami League. After years of conflict,\n  the central government relented and granted official status to the Bengali language in 1956. On 17 November 1999,\n  UNESCO declared 21 February International Mother Language Day for the whole world to celebrate, in tribute to the\n  Language Movement and the ethno-linguistic rights of people around the world.");
+        printf("Enter anything to got to country menu");
+    }
+    else if (strncmp(e,"politics",3)==0||strcmp(e,"p")==0||strncmp(e,"1954",3)==0||strcmp(e,"19")==0||strcmp(e,"2")==0)
+    {
+        system("cls");
+        printf("\n   2.Politics: 1954-1970");
+        printf("\n\nGreat differences began developing between the two wings of Pakistan. While the\n west had a minority share of Pakistan's total population, it had the largest share of\n revenue allocation, industrial development, agricultural reforms and civil\n development projects. Pakistan's military and civil services were dominated by the\n Punjabis. Only one regiment in the Pakistani Army was Bengali. Many Bengali\n Pakistanis did not share the natural enthusiasm for the Kashmir issue, which they\n felt was leaving East Pakistan more vulnerable and threatened as a result.\n\n In 1966, Sheikh Mujibur Rahman, the leader of the Awami League proclaimed a\n 6-point plan titled Our Charter of Survival at a national conference of opposition\n political parties at Lahore, in which he demanded self-government and considerable\n political, economic and defence autonomy for East Pakistan in a\n Pakistani federation with a weak central government. This led to the historic six \n point movement.\n\n In early 1968, the Agartala Conspiracy Case was filed against Sheikh Mujib and 34\n others, with the allegation that the accused were planning to liberate the East \n Pakistan. However, as the trial progressed, a mass uprising formed in protest against\n  this accusation and demanded the freeing of all the prisoners. On 15\n February 1969, one of the prisoners, Zahurul Haq, was shot dead at point blank\n range, which further enraged the public leading the government to decide to\n withdraw the case on 22 February. The mass uprising subsequently culminated in the\n  Uprising of 69.\n\nOn 25 March 1969, General Ayub Khan handed the state power to General Yahya\n Khan. Subsequently, all sorts of political activities in the country were postponed by\n  the new military President. Nevertheless, some students kept the movement\n  going clandestinely. A new group called \"15 February Bahini\" was\n formed under the leadership of Serajul Alam Khan and Kazi Aref Ahmed, who were\n members of the \"Swadhin Bangla Nucleus\".\n\nLater in 1969, Yahya Khan announced a fresh election date for 5 October 1970.\n Displeasure on the west in the issues of economic and cultural domination resulted\n  into the emergence of Awami League as the strongest political voice of\n  East Pakistan. In his historic speech before hundred thousands of people at\n the Suhrawardy Udyan on March 7, 1971, the president of Awami League and the\n father of the nation Bangabandhu Sheikh Mujibur Rahman, called upon all the\n people of East Pakistan to launch a decisive struggle against the Pakistani occupation\n and take an all-out preparation for the War of Liberation.\n\n");
+    }
+    else if(strncmp(e,"movement",3)==0||strncmp(e,"independence",3)==0||strcmp(e,"i")==0||strcmp(e,"m")==0||strcmp(e,"3")==0)
+    {
+        system("cls");
+        printf("\n   3.Independence movement");
+        printf("\n\nAfter the Awami League won all the East Pakistan seats as well as a majority of the\n Pakistan's National Assembly in the 1970–71 elections, West Pakistan opened talks\n with the East on constitutional questions about the division of power between the\n central government and the provinces, as well as the formation of a national\n government headed by the Awami League.\n\n The talks proved unsuccessful, however, and on 1 March 1971, Pakistani President\n Yahya Khan indefinitely postponed the pending National Assembly session,\n precipitating massive civil disobedience in East Pakistan.\n\n On 2 March 1971, a group of students, led by A S M Abdur Rob, a student leader,\n raised the new (proposed) flag of Bangladesh under the direction of the Swadhin \n Bangla Nucleus. They demanded that Sheikh Mujibur Rahman declare the\n independence of Bangladesh immediately but Mujibur Rahman refused to agree\n to\n this demand. Rather, he decided that he would declare his next steps at a public\n  meeting to be held on 7 March.\n\n On 3 March, student leader, Shahjahan Siraj, read the 'Sadhinotar Ishtehar'\n (Declaration of independence) at Paltan Maidan in front of Bangabandhu Sheikh\n Mujib at a public gathering under the direction of the Swadhin Bangla Nucleus.\n\n On 7 March, there was a public gathering in Suhrawardy Udyan to hear updates on\n the ongoing movement from Bangabandhu Sheikh Mujib, the leader of the\n movement that time. Although he avoided directly referring to independence, as the\n  talks were still underway, he warned his listeners to prepare for any imminent\n war. The speech is considered a key moment in the war of liberation,\n and is remembered for the phrase,\n\n\"Ebarer Shongram Amader Muktir Shongram, Ebarer Shongram Shadhinotar Shongram....\n Our struggle this time is a struggle for our freedom, our struggle this time is a struggle for our \n independence....\"\n\n");
+    }
+    else if(strncmp(e,"declaration",3)==0||strcmp(e,"d")==0||strcmp(e,"f")==0||strcmp(e,"4")==0||strncmp(e,"formal",3)==0)
+    {
+        system("cls");
+        printf("\n   4.Formal Declaration of Independence");
+        printf("\n\nIn the early hours of 26 March 1971, a military crackdown by the Pakistan army\n began. The Bangabandhu Sheikh Mujibur Rahman was arrested and the political\n leaders dispersed, mostly fleeing to neighbouring India where they organised a\n provisional government. Before being arrested by the Pakistani Army, Sheikh\n Mujibur Rahman passed a hand written note which contained the Bangladeshi\n Declaration of Independence. This note was widely circulated and transmitted by the\n then East Pakistan Rifles' wireless transmitter. The world press reports from\n late March 1971 also make sure that Bangladesh's declaration of independence by\n Bangabandhu was widely reported throughout the world. Bengali Army officer Major\n Ziaur Rahman captured the Kalurghat Radio Station in Chittagong and read\n the declaration of independence of Bangladesh during the evening hours on\n 27 March.\n\n This is Swadhin Bangla Betar Kendra. I, Major Ziaur Rahman, at the direction of\n Bangobondhu Mujibur Rahman, hereby declare that the Independent People's\n Republic of Bangladesh has been established. At his direction, I have taken command\n as the temporary Head of the Republic. In the name of Sheikh Mujibur \nRahman, I call upon all Bengalees to rise against the attack by the West Pakistani\n Army. We shall fight to the last to free our motherland. Victory is, by the Grace of\n Allah, ours. Joy Bangla.\n\n The Provisional Government of the People's Republic of Bangladesh was formed on\n 10 April in Meherpur (later renamed as Mujibnagar, a town adjacent to the\n\n Indian border). Sheikh Mujibur Rahman was announced to be the Head of the State.\n Tajuddin Ahmed became the Prime Minister, Syed Nazrul Islam became the\n acting President and Khondaker Mostaq Ahmed the Foreign Minister. There\n the war plan was sketched out with Bangladesh armed forces established and named\n \"Muktifoujo\". Later these forces were named \"Muktibahini\" (freedom\n fighters). M. A. G. Osmani was appointed as the Chief of the Armed Forces.\n\n For military purposes, Bangladesh was divided into 11 sectors under 11 sector\n commanders. In addition to these sectors, later in the war, three special forces were\n formed: Z Force, S Force and K Force. These three forces names were\n derived from the initial letters of the commander's name. The training and most of\n the arms and ammunitions were arranged by the Meherpur government which was\n supported by India. As fighting grew between the Pakistan Army and the\n Bengali Mukti Bahini, an estimated ten million Bengalis, mainly Hindus, sought\n refuge in the Indian states of Assam, Tripura and West Bengal.\n\nThe crisis in East Pakistan produced new strains in Pakistan's troubled relations with\n India. The two nations had fought a war in 1965, mainly in the west, but the\n pressure of millions of refugees escaping into India in autumn 1971, as well as\n Pakistani aggression, reignited Indian hostilities with Pakistan. Indian\n sympathies lay with East Pakistan, and on 3 December 1971, India intervened on the\n side of the Bangladeshis which led to a short, but violent, two-week war\n known as the Indo-Pakistani War of 1971.\n\n");
+
+    }
+    else if(strncmp(e,"pakistan",3)==0||strcmp(e,"p")==0||strncmp(e,"capitulation",3)==0||strcmp(e,"c")==0||strcmp(e,"a")==0||strncmp(e,"aftermath",3)==0||strcmp(e,"5")==0)
+    {
+        system("cls");
+        printf("\n   5.Pakistani capitulation and aftermath");
+        printf("On 16 December 1971, Lt. Gen A. A. K. Niazi, CO of Pakistan Army forces located in\n East Pakistan signed the Instrument of Surrender and the nation of Bangla Desh\n (\"Country of Bengal\") was finally established the following day. At the time of\n surrender only a few countries had provided diplomatic recognition to the new\n nation. Over 90,000 Pakistani troops surrendered to the Indian forces making it the\n largest surrender since World War II. The new country changed its name to\n Bangladesh on 11 January 1972 and became a parliamentary democracy under a\n constitution. Shortly thereafter on 19 March Bangladesh signed a friendship treaty\n with India. Bangladesh sought admission in the UN with most voting in its favour, but\n China vetoed this as Pakistan was its key ally. The United States, also a key ally\n of Pakistan, was one of the last nations to accord Bangladesh recognition. To\n ensure a smooth transition, in 1972 the Simla Agreement was signed between India\n and Pakistan. The treaty ensured that Pakistan recognised the independence\n of Bangladesh in exchange for the return of the Pakistani PoWs.\n India treated all the PoWs in strict accordance with the Geneva Convention, rule\n 1925.[61] It released more than 93,000 Pakistani PoWs in five months.\n\n Furthermore, as a gesture of goodwill, nearly 200 soldiers who were sought for war\n crimes by Bengalis were also pardoned by India. The accord also gave back\n more than 13,000 km2 (5,019 sq mi) of land that Indian troops had seized in West\n Pakistan during the war, though India retained a few strategic areas, most notably\n Kargil (which would in turn again be the focal point for a war between the two\n nations in 1999).\n\n");
+
+    }
+    else if(strncmp(e,"return",3)==0||strcmp(e,"r")==0||strncmp(e,"main",3)==0||strncmp(e,"menu",3)==0||strcmp(e,"6")==0)
+    {
+        system("cls");
+
+    }
+    else
+    {
+        system("cls");
+        puts("Wrong command");
+        puts("Spouse for try again write \"yes\" \"yap\" \"again\" \"try again\" or key character of command.");
+        puts("Enter your command ..");
+        main();
+    }
+
+}
+

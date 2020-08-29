@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<math.h>
+#define pi 3.1416
+main()
+{
+    char i;
+    printf(" Enter a Character: ");
+    scanf("%d",&i);
+    if((i>=65&&i<=90)(i>=97&&i<=122)) printf(" It is divisible by 5");
+    else printf(" Wrong.!");
+
+
+}

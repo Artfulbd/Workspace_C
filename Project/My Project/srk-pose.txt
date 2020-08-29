@@ -1,0 +1,38 @@
+this programme is about the details that you have  for the srk pose
+
+
+some limit have must follow: 1.height 5.8 the ke colbe
+                                                2.weight 50--70 kg hote hbe
+                                                
+
+firstly some question will ask from user
+1.Do u know srk??
+ans:Yes /No
+If no then printf(Some details about srk)
+
+
+2.have any backbones problems??
+ans: Yes/No
+If ans no then printf(You are unablke to do it right now)
+
+
+3.Have any necks problem?
+ans:Yes/No
+If ans no then printf(Really it will difficult for you)
+
+
+4.Give us your height!
+scanf(5.8--up)
+if ans is 5.8 down then printf(it will look bad.so u have to hang on)
+
+
+5.give us ur weight!
+scanf(50--70)
+if ans 70 up then printf(khawya dawya kom kora dorkar)
+if ans 50 down then printf("Khawya barano ucit)
+
+
+ finally all questions answer will give the user then it will show
+
+   Yaap..you can do it...see some movie of srk then you will get motivation..
+    Finally you can do the legend srk pose>>>>
